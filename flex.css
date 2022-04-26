@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.uno{
+    flex-grow: 10;
+    align-self: flex-start;
+}
+.dos{
+    flex-grow: 4;
+    align-self: center;
+}
+.tres{
+    flex-grow: 0.5;
+    align-self: flex-end;
+}
